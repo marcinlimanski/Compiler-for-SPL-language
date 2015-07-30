@@ -1,0 +1,11 @@
+ProgV
+:
+
+CODE
+
+  WRITE ( (1+1));
+  NEWLINE
+
+ENDP
+ProgV
+.

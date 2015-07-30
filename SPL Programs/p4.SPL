@@ -1,0 +1,21 @@
+ProgV
+:
+
+DECLARATIONS
+
+integer,i OF TYPE INTEGER;
+
+CODE
+
+  READ (integer);
+   -1 -> i;
+   FOR integer IS i*i
+              BY i*i*i 
+              TO i*i DO  
+      WRITE(integer); 
+      NEWLINE
+      ENDFOR
+
+ENDP
+ProgV
+.

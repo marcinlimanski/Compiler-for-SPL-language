@@ -1,0 +1,380 @@
+--02/12/2014----------------------------------------------------- 
+Lexical Tokens for a.spl 
+--17:51:29.86----------------------------------------------------- 
+Identifier: ProgA Token: identifier_SPL
+Token: COLON
+Token: CODE_SPL
+Token: WRITE_SPL
+Token: BRA
+Char: 'h' Token: CHARACTER_CONSTANT
+Token: COMMA
+Char: 'e' Token: CHARACTER_CONSTANT
+Token: COMMA
+Char: 'l' Token: CHARACTER_CONSTANT
+Token: COMMA
+Char: 'l' Token: CHARACTER_CONSTANT
+Token: COMMA
+Char: 'o' Token: CHARACTER_CONSTANT
+Token: KET
+Token: SEMICOLON
+Token: NEWLINE_SPL
+Token: ENDP_SPL
+Identifier: ProgA Token: identifier_SPL
+Token: DOT
+--02/12/2014----------------------------------------------------- 
+Lexical Tokens for b.spl 
+--17:51:45.18----------------------------------------------------- 
+Identifier: ProgB Token: identifier_SPL
+Token: COLON
+Token: DECLARATIONS_SPL
+Identifier: a Token: identifier_SPL
+Token: COMMA
+Identifier: b Token: identifier_SPL
+Token: COMMA
+Identifier: c Token: identifier_SPL
+Token: OF_SPL
+Token: TYPE_SPL
+Token: INTEGER_SPL
+Token: SEMICOLON
+Identifier: d Token: identifier_SPL
+Token: COMMA
+Identifier: e Token: identifier_SPL
+Token: OF_SPL
+Token: TYPE_SPL
+Token: REAL_SPL
+Token: SEMICOLON
+Identifier: f Token: identifier_SPL
+Token: OF_SPL
+Token: TYPE_SPL
+Token: CHARACTER_SPL
+Token: SEMICOLON
+Token: CODE_SPL
+Token: READ_SPL
+Token: BRA
+Identifier: a Token: identifier_SPL
+Token: KET
+Token: SEMICOLON
+Token: READ_SPL
+Token: BRA
+Identifier: b Token: identifier_SPL
+Token: KET
+Token: SEMICOLON
+Token: IF_SPL
+Identifier: a Token: identifier_SPL
+Token: GREATER_THAN
+Identifier: b Token: identifier_SPL
+Token: THEN_SPL
+Token: WRITE_SPL
+Token: BRA
+Char: 'A' Token: CHARACTER_CONSTANT
+Token: KET
+Token: ELSE_SPL
+Token: WRITE_SPL
+Token: BRA
+Char: 'B' Token: CHARACTER_CONSTANT
+Token: KET
+Token: ENDIF_SPL
+Token: SEMICOLON
+Token: NEWLINE_SPL
+Token: SEMICOLON
+Token: READ_SPL
+Token: BRA
+Identifier: d Token: identifier_SPL
+Token: KET
+Token: SEMICOLON
+Identifier: d Token: identifier_SPL
+Token: TIMES
+Float: 2.300000 Token: FLOAT_NUM
+Token: ASSIGMENT
+Identifier: e Token: identifier_SPL
+Token: SEMICOLON
+Token: WRITE_SPL
+Token: BRA
+Identifier: e Token: identifier_SPL
+Token: KET
+Token: SEMICOLON
+Token: NEWLINE_SPL
+Token: SEMICOLON
+Token: READ_SPL
+Token: BRA
+Identifier: f Token: identifier_SPL
+Token: KET
+Token: SEMICOLON
+Token: WRITE_SPL
+Token: BRA
+Identifier: f Token: identifier_SPL
+Token: KET
+Token: SEMICOLON
+Token: NEWLINE_SPL
+Token: ENDP_SPL
+Identifier: ProgB Token: identifier_SPL
+Token: DOT
+--02/12/2014----------------------------------------------------- 
+Lexical Tokens for c.spl 
+--17:51:46.80----------------------------------------------------- 
+Identifier: Prog3 Token: identifier_SPL
+Token: COLON
+Token: DECLARATIONS_SPL
+Identifier: a Token: identifier_SPL
+Token: OF_SPL
+Token: TYPE_SPL
+Token: INTEGER_SPL
+Token: SEMICOLON
+Token: CODE_SPL
+Token: FOR_SPL
+Identifier: a Token: identifier_SPL
+Token: IS_SPL
+Integer: 1 Token: INTERGER_NUM
+Token: BY_SPL
+Integer: 1 Token: INTERGER_NUM
+Token: TO_SPL
+Integer: 13 Token: INTERGER_NUM
+Token: DO_SPL
+Token: IF_SPL
+Token: NOT_SPL
+Identifier: a Token: identifier_SPL
+Token: EQUALS
+Integer: 7 Token: INTERGER_NUM
+Token: THEN_SPL
+Token: WRITE_SPL
+Token: BRA
+Identifier: a Token: identifier_SPL
+Token: KET
+Token: SEMICOLON
+Token: NEWLINE_SPL
+Token: ENDIF_SPL
+Token: ENDFOR_SPL
+Token: SEMICOLON
+Integer: 0 Token: INTERGER_NUM
+Token: ASSIGMENT
+Identifier: a Token: identifier_SPL
+Token: SEMICOLON
+Token: DO_SPL
+Identifier: a Token: identifier_SPL
+Token: PLUS
+Integer: 1 Token: INTERGER_NUM
+Token: ASSIGMENT
+Identifier: a Token: identifier_SPL
+Token: SEMICOLON
+Token: IF_SPL
+Token: NOT_SPL
+Identifier: a Token: identifier_SPL
+Token: EQUALS
+Integer: 6 Token: INTERGER_NUM
+Token: AND_SPL
+Identifier: a Token: identifier_SPL
+Token: NOT_EQUALS
+Integer: 8 Token: INTERGER_NUM
+Token: THEN_SPL
+Token: WRITE_SPL
+Token: BRA
+Identifier: a Token: identifier_SPL
+Token: KET
+Token: SEMICOLON
+Token: NEWLINE_SPL
+Token: ENDIF_SPL
+Token: WHILE_SPL
+Identifier: a Token: identifier_SPL
+Token: LESS_THAN
+Integer: 14 Token: INTERGER_NUM
+Token: ENDDO_SPL
+Token: SEMICOLON
+Integer: 0 Token: INTERGER_NUM
+Token: ASSIGMENT
+Identifier: a Token: identifier_SPL
+Token: SEMICOLON
+Token: WHILE_SPL
+Identifier: a Token: identifier_SPL
+Token: LESS_THAN
+Integer: 12 Token: INTERGER_NUM
+Token: DO_SPL
+Token: WRITE_SPL
+Token: BRA
+Identifier: a Token: identifier_SPL
+Token: KET
+Token: SEMICOLON
+Identifier: a Token: identifier_SPL
+Token: PLUS
+Integer: 1 Token: INTERGER_NUM
+Token: ASSIGMENT
+Identifier: a Token: identifier_SPL
+Token: ENDWHILE_SPL
+Token: ENDP_SPL
+Identifier: Prog3 Token: identifier_SPL
+Token: DOT
+--02/12/2014----------------------------------------------------- 
+Lexical Tokens for d.spl 
+--17:51:47.80----------------------------------------------------- 
+Identifier: Prog4D Token: identifier_SPL
+Token: COLON
+Token: DECLARATIONS_SPL
+Identifier: r1 Token: identifier_SPL
+Token: COMMA
+Identifier: r2 Token: identifier_SPL
+Token: COMMA
+Identifier: r3 Token: identifier_SPL
+Token: OF_SPL
+Token: TYPE_SPL
+Token: REAL_SPL
+Token: SEMICOLON
+Token: CODE_SPL
+Token: MINUS
+Float: 2.400000 Token: FLOAT_NUM
+Token: ASSIGMENT
+Identifier: r1 Token: identifier_SPL
+Token: SEMICOLON
+Token: MINUS
+Float: 34.989000 Token: FLOAT_NUM
+Token: ASSIGMENT
+Identifier: r2 Token: identifier_SPL
+Token: SEMICOLON
+Identifier: r1 Token: identifier_SPL
+Token: TIMES
+Identifier: r2 Token: identifier_SPL
+Token: DIVIDE
+Float: 7.400000 Token: FLOAT_NUM
+Token: ASSIGMENT
+Identifier: r3 Token: identifier_SPL
+Token: SEMICOLON
+Token: WRITE_SPL
+Token: BRA
+Identifier: r3 Token: identifier_SPL
+Token: KET
+Token: SEMICOLON
+Token: NEWLINE_SPL
+Token: SEMICOLON
+Token: READ_SPL
+Token: BRA
+Identifier: r1 Token: identifier_SPL
+Token: KET
+Token: SEMICOLON
+Identifier: r1 Token: identifier_SPL
+Token: PLUS
+Identifier: r3 Token: identifier_SPL
+Token: ASSIGMENT
+Identifier: r3 Token: identifier_SPL
+Token: SEMICOLON
+Token: WRITE_SPL
+Token: BRA
+Identifier: r3 Token: identifier_SPL
+Token: KET
+Token: SEMICOLON
+Token: NEWLINE_SPL
+Token: ENDP_SPL
+Identifier: Prog4D Token: identifier_SPL
+Token: DOT
+--02/12/2014----------------------------------------------------- 
+Lexical Tokens for e.spl 
+--17:51:48.83----------------------------------------------------- 
+Identifier: ProgV Token: identifier_SPL
+Token: COLON
+Token: DECLARATIONS_SPL
+Identifier: integer Token: identifier_SPL
+Token: COMMA
+Identifier: i Token: identifier_SPL
+Token: OF_SPL
+Token: TYPE_SPL
+Token: INTEGER_SPL
+Token: SEMICOLON
+Token: CODE_SPL
+Token: READ_SPL
+Token: BRA
+Identifier: integer Token: identifier_SPL
+Token: KET
+Token: SEMICOLON
+Token: IF_SPL
+Identifier: integer Token: identifier_SPL
+Token: LESS_THAN_OR_EQUAL
+Integer: 5 Token: INTERGER_NUM
+Token: OR_SPL
+Identifier: integer Token: identifier_SPL
+Token: GREATER_THAN_OR_EQUAL
+Integer: 12 Token: INTERGER_NUM
+Token: THEN_SPL
+Token: WRITE_SPL
+Token: BRA
+Identifier: integer Token: identifier_SPL
+Token: KET
+Token: ENDIF_SPL
+Token: SEMICOLON
+Token: WRITE_SPL
+Token: BRA
+Token: BRA
+Float: 35.100000 Token: FLOAT_NUM
+Token: MINUS
+Float: 0.100000 Token: FLOAT_NUM
+Token: KET
+Token: KET
+Token: SEMICOLON
+Token: NEWLINE_SPL
+Token: SEMICOLON
+Token: FOR_SPL
+Identifier: integer Token: identifier_SPL
+Token: IS_SPL
+Token: MINUS
+Integer: 1 Token: INTERGER_NUM
+Token: BY_SPL
+Token: MINUS
+Integer: 1 Token: INTERGER_NUM
+Token: TO_SPL
+Token: MINUS
+Integer: 5 Token: INTERGER_NUM
+Token: DO_SPL
+Token: WRITE_SPL
+Token: BRA
+Identifier: integer Token: identifier_SPL
+Token: KET
+Token: SEMICOLON
+Token: NEWLINE_SPL
+Token: ENDFOR_SPL
+Token: SEMICOLON
+Token: MINUS
+Integer: 1 Token: INTERGER_NUM
+Token: ASSIGMENT
+Identifier: i Token: identifier_SPL
+Token: SEMICOLON
+Token: FOR_SPL
+Identifier: integer Token: identifier_SPL
+Token: IS_SPL
+Identifier: i Token: identifier_SPL
+Token: TIMES
+Identifier: i Token: identifier_SPL
+Token: TIMES
+Identifier: i Token: identifier_SPL
+Token: BY_SPL
+Identifier: i Token: identifier_SPL
+Token: TIMES
+Identifier: i Token: identifier_SPL
+Token: TIMES
+Identifier: i Token: identifier_SPL
+Token: TIMES
+Identifier: i Token: identifier_SPL
+Token: TIMES
+Identifier: i Token: identifier_SPL
+Token: TO_SPL
+Identifier: i Token: identifier_SPL
+Token: TIMES
+Identifier: i Token: identifier_SPL
+Token: TIMES
+Token: BRA
+Identifier: i Token: identifier_SPL
+Token: PLUS
+Identifier: i Token: identifier_SPL
+Token: PLUS
+Identifier: i Token: identifier_SPL
+Token: PLUS
+Identifier: i Token: identifier_SPL
+Token: PLUS
+Identifier: i Token: identifier_SPL
+Token: KET
+Token: DO_SPL
+Token: WRITE_SPL
+Token: BRA
+Identifier: integer Token: identifier_SPL
+Token: KET
+Token: SEMICOLON
+Token: NEWLINE_SPL
+Token: ENDFOR_SPL
+Token: ENDP_SPL
+Identifier: ProgV Token: identifier_SPL
+Token: DOT

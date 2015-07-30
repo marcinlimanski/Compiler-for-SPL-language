@@ -1,0 +1,8 @@
+ProgA1:
+
+CODE
+
+  WRITE('t','h','i','s','s','h','o','u','l','d','n','o','t','r','u','n');
+  NEWLINE
+
+ENDP ProgA.
