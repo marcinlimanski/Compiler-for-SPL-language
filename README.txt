@@ -67,28 +67,3 @@ GENERATING COMPILER: (Run the following commands in cmd)
 	yacc/bison spl.y
 	gcc -o compiler.exe spl.tab.c spl.c -ll
 	compiler.exe < a.SPL
-
-OPTIMAZATION:
-	> Checking for the correct program name _start and _end
-		if the name will not match the a warning will be generated 
-		/*Syntax Warrning: check if start ID is matching end ID*/
-	> #ifdef DEBUG
-			void PrintTree(TERNARY_TREE, int);
-			void printId(int, int);
-		#endif
-			void PrintCode(TERNARY_TREE);
-			int FindExpVal(TERNARY_TREE);
-	
-	if(t == NULL){
-		return 0;
-	}
-	int floatFound = 0;
-
-	Not initialising variables of a condition is not met.
-	>Checking for reserved C symbols, and if found generating a warning :
-	/*Error: you have used a varible name that is reserved for C language*/
-
-
-ASSUMPTIONS: 
-	>For loop: Assuming that all the variables and expressions are integers.
-	>Assuming that the values entered will be of the corrected asking type. 
